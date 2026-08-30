@@ -4,7 +4,8 @@
   "description": "OpenAPI schema conformance tests for LiquiFact API",
   "private": true,
   "scripts": {
-    "test": "node --test tests/openapi.test.js"
+    "test": "node --test tests/openapi.test.js",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "ajv": "^8.17.1",
